@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Center the image */
+}
+
+header {
+  background-color: rgba(255, 229, 72, 255);
+}
+footer {
+  background-color: rgba(255, 229, 72, 255);
+  text-align: center;
+  clear: both;
+  height: 50px;
+  color: red;
+  font-size: 32px;
+}
+hr {
+  clear: both;
+  border: none;
+}
+.logo img {
+  width: 250px;
+}
+.logo {
+  float: left;
+}
+
+.header-title h1 {
+  text-align: center;
+  font-size: 64px;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 50px;
+}
+#form-div {
+  background-color: rgba(255, 229, 72, 255);
+  width: 20%;
+  float: left;
+  border-radius: 15px;
+  margin: 100px;
+}
+#table-div {
+  background-color: rgba(255, 229, 72, 255);
+  width: 50%;
+  float: left;
+  border-radius: 15px;
+  margin: 100px 50px;
+}
+#food-table img {
+  width: 120px;
+  height: 120px;
+}
+
+#food-form {
+  padding: 50px 20px;
+}
+#food-form label,
+#food-form input,
+#food-form select {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#food-form label {
+  color: red;
+  font-weight: bold;
+}
+#food-form input[type="submit"],
+#food-form input[type="button"] {
+  background-color: red;
+  color: white;
+  margin-top: 50px;
+}
+table td {
+  border: 3px solid red;
+  background-color: rgb(255, 242, 166);
+  text-align: center;
+  font-size: 24px;
+  padding: 50px;
+  font-weight: bold;
+}
+table td p {
+  text-align: left;
+  display: inline;
+}
+table thead td {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 0;
+}
+#food-table {
+  width: calc(100% - 60px);
+  margin: 30px;
+}
+
+span {
+  display: block;
+}
+.removeImg {
+  width: 20px !important;
+  height: 20px !important;
+  float: left;
+  cursor: pointer;
+}
